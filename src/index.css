@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: var(--inter-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
