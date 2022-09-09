@@ -49,3 +49,24 @@
   font-weight: bold;
   cursor: pointer;
 }
+.auth-btns {
+  gap: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    font-size: 12px;
+    flex-wrap: wrap;
+    justify-content: baseline;
+  }
+  .auth-btns {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btn-signup,
+  .btn-login {
+    display: none;
+  }
+}

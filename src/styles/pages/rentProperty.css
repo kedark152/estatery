@@ -1,7 +1,6 @@
 /* Rent Property Page */
 .rent-property-page {
-  /* border: 1px solid green; */
-  padding: 0 10vw;
+  padding: 0 12vw;
 }
 
 /* Filters Bar */
@@ -47,7 +46,7 @@
 
 .search-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 5rem;
   align-items: center;
 }
@@ -68,4 +67,41 @@
   gap: 1rem;
   justify-content: center;
   margin: 1rem 1rem;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1000px) {
+  .search-container h1 {
+    font-size: 1.2rem;
+  }
+  .btn-search {
+    padding: 10px 15px;
+  }
+  .rent-property-page {
+    padding: 0 5vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .btn-search,
+  .filters-bar label,
+  .filters-bar select,
+  .filters-bar input[type="date"] {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .filters-bar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search-container h1 {
+    font-size: 1rem;
+  }
+  .search-container {
+    gap: 10px;
+  }
 }
