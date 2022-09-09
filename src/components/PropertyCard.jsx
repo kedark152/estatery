@@ -16,7 +16,7 @@ export const PropertyCard = ({ propertyDetails }) => {
     type,
   } = propertyDetails;
   const { wishlistState, dispatchWishlist } = useWishlist();
-  console.log(wishlistState);
+
   return (
     <div className="property-card">
       <div className="card-img-box">
