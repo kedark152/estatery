@@ -33,7 +33,7 @@ export const PropertyCard = ({ propertyDetails }) => {
         <p className="availability-txt">
           Available from: {convertDateFormat(moveInDate)}
         </p>
-        <p className="property-type-txt">{type}</p>
+        <p className="property-type-txt">Type: {type}</p>
       </div>
       <i
         className="material-icons"
@@ -54,6 +54,7 @@ export const PropertyCard = ({ propertyDetails }) => {
           ? `favorite`
           : `favorite_border`}
       </i>
+      <hr className="divider" />
       <div className="card-bottom flex-align-center gap-5px">
         <div className="beds flex-align-center">
           <i className="material-icons">bed</i>
