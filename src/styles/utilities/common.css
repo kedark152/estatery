@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* common-styling */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gap-5px {
+  gap: 5px;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
