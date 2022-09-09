@@ -30,7 +30,8 @@
 }
 
 .address,
-.availability-txt {
+.availability-txt,
+.property-type-txt {
   font-size: 14px;
   color: gray;
   font-weight: 600;
@@ -56,3 +57,9 @@
   color: var(--primary-color);
   font-weight: bold;
 }
+
+.divider {
+  border-top: 1px solid var(--light-gray-border);
+}
+
+
