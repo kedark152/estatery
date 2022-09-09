@@ -7,7 +7,7 @@ export const Wishlist = () => {
   return (
     <>
       <NavBar />
-      <div className="search-container">
+      <div className="text-center">
         <h1>Wishlist</h1>
       </div>
       <div className="wishlist-property-list">
