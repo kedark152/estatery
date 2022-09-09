@@ -1,5 +1,35 @@
 const rentPropertyData = [
   {
+    id: "O4Ld78YdeeF5",
+    name: "3 BHK in Kaushalya nagar",
+    imgUrl:
+      "https://mediacdn.99acres.com/media1/19007/7/380147728O-1662277979756.jpg",
+    address: "kaushalya nagar, Ram Wadi, Nashik",
+    rent: 30000,
+    isPopular: false,
+    bedsQty: 3,
+    bathroomQty: 3,
+    propertyArea: "100",
+    city: "nashik",
+    moveInDate: "09/07/2022",
+    type: "apartment",
+  },
+  {
+    id: "J3Ld2YdeoH5",
+    name: "1 BHK in Sector-19, Kharghar",
+    imgUrl:
+      "https://is1-2.housingcdn.com/01c16c28/75e0575988d633aa884d77a28f053a27/v0/fs/1_bhk_apartment-for-rent-kharghar-Navi+Mumbai-hall.jpg.webp",
+    address: "Rekhi Deffodils, Sector-19, Kharghar, Navi Mumbai",
+    rent: 20000,
+    isPopular: false,
+    bedsQty: 1,
+    bathroomQty: 2,
+    propertyArea: "980",
+    city: "navi-mumbai",
+    moveInDate: "09/11/2022",
+    type: "apartment",
+  },
+  {
     id: "I8Lg2YkTH5",
     name: "1 BHK in Lodha Palava, Dombivali",
     imgUrl:
@@ -11,7 +41,7 @@ const rentPropertyData = [
     bathroomQty: 2,
     propertyArea: "450",
     city: "mumbai",
-    moveInDate: "09/11/2022",
+    moveInDate: "09/08/2022",
     type: "apartment",
   },
   {
@@ -26,7 +56,7 @@ const rentPropertyData = [
     bathroomQty: 2,
     propertyArea: "1000",
     city: "mumbai",
-    moveInDate: "09/12/2022",
+    moveInDate: "09/08/2022",
     type: "apartment",
   },
   {
@@ -41,7 +71,7 @@ const rentPropertyData = [
     bathroomQty: 2,
     propertyArea: "1000",
     city: "nashik",
-    moveInDate: "09/13/2022",
+    moveInDate: "09/10/2022",
     type: "apartment",
   },
   {
@@ -56,7 +86,7 @@ const rentPropertyData = [
     bathroomQty: 4,
     propertyArea: "15000",
     city: "mumbai",
-    moveInDate: "09/14/2022",
+    moveInDate: "09/10/2022",
     type: "villa",
   },
   {
@@ -71,7 +101,7 @@ const rentPropertyData = [
     bathroomQty: 3,
     propertyArea: "2000",
     city: "navi-mumbai",
-    moveInDate: "09/15/2022",
+    moveInDate: "09/11/2022",
     type: "villa",
   },
   {
@@ -86,7 +116,7 @@ const rentPropertyData = [
     bathroomQty: 3,
     propertyArea: "2000",
     city: "nashik",
-    moveInDate: "09/15/2022",
+    moveInDate: "09/12/2022",
     type: "villa",
   },
   {
@@ -101,7 +131,7 @@ const rentPropertyData = [
     bathroomQty: 3,
     propertyArea: "2000",
     city: "navi-mumbai",
-    moveInDate: "09/16/2022",
+    moveInDate: "09/13/2022",
     type: "villa",
   },
   {
