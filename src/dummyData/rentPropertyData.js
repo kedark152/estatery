@@ -71,7 +71,7 @@ const rentPropertyData = [
     bathroomQty: 2,
     propertyArea: "1000",
     city: "nashik",
-    moveInDate: "09/10/2022",
+    moveInDate: "09/14/2022",
     type: "apartment",
   },
   {
