@@ -40,6 +40,9 @@ export const RentProperty = () => {
               <PropertyCard key={property.id} propertyDetails={property} />
             ))}
         </div>
+        {searchedPropertyList.length === 0 && (
+          <p className="empty-list text-center">No Results Found</p>
+        )}
       </div>
     </>
   );

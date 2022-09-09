@@ -16,6 +16,9 @@ export const Wishlist = () => {
             <PropertyCard key={property.id} propertyDetails={property} />
           ))}
       </div>
+      {wishlistState.length === 0 && (
+        <p className="empty-list text-center">No Results Found</p>
+      )}
     </>
   );
 };
