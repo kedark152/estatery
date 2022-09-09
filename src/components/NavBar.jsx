@@ -24,7 +24,7 @@ export const NavBar = () => {
           <span className="wishlist-count">{wishlistState.length}</span>
         </Link>
       </div>
-      <div className="flex gap-1">
+      <div className="auth-btns flex">
         <p className="btn-login">Login</p>
         <p className="btn-signup">Signup</p>
       </div>
