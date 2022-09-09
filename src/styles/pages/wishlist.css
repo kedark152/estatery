@@ -1,0 +1,7 @@
+.wishlist-property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 1rem;
+}
